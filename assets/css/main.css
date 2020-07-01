@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/*
+font: Raleway
+Color: #707070
+*/
+
+.logo-home {
+padding-top: 1%;
+display: flex;
+justify-content: center;
+border: 1px solid green;
+height: 200px;
+}
+
+
+
+#logo-home {
+display: flex;
+justify-content: center;
+border: 1px solid blue;
+height: 200px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 2%;
+
+  
+}
+
+#hero {
+  background-image: url(/assets/img/fotoprincipal.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+ font-family: 'Raleway', sans-serif;
+border: 1px solid gray;
+text-align: center;
+padding-top: 14%;
+opacity: 0.9;
+margin-top: 2%;
+}
+
+.title {
+  color: #707070;
+  padding: 10px;
+  font-size: 2em;
+ 
+}
+
+#parte2 {
+  background-image: url(/assets/img/fotosegunda.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 14%;
+ font-family: 'Raleway', sans-serif;
+border: 1px solid red
+font: #707070;
+}
+
+.contenido {
+  
+  font-size: 2em;
+  color: #707070;
+}
