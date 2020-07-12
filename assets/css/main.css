@@ -23,10 +23,10 @@ height: 200px;
 
 
 #logo-home {
-display: flex;
-justify-content: center;
-border: 1px solid blue;
-height: 200px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 200px;
 }
 
 
@@ -38,8 +38,11 @@ nav {
   padding-left: 30%;
   padding-right: 30%;
   padding-top: 2%;
-
-  
+  border: 1px solid yellow;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em; 
+  color: black;
+  text-decoration: none;
 }
 
 #hero {
@@ -52,19 +55,18 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
- font-family: 'Raleway', sans-serif;
-border: 1px solid gray;
-text-align: center;
-padding-top: 14%;
-opacity: 0.9;
-margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid gray;
+  text-align: center;
+  padding-top: 14%;
+  opacity: 0.9;
+  margin-top: 2%;
 }
 
 .title {
   color: #707070;
   padding: 10px;
   font-size: 2em;
- 
 }
 
 #parte2 {
@@ -76,13 +78,72 @@ margin-top: 2%;
   display: flex;
   justify-content: flex-start;
   padding-top: 14%;
- font-family: 'Raleway', sans-serif;
-border: 1px solid red
-font: #707070;
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid red
+  color: #707070;
 }
 
 .contenido {
   
   font-size: 2em;
   color: #707070;
+}
+
+
+@media (max-width: 600px) {
+
+ #logo-home {
+display: flex;
+justify-content: center;
+border: 1px solid blue;
+margin: 1% 2%;
+width: 100%
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+border: 1px solid blueviolet;
+padding-left: 1px;
+padding-right: 2px;
+text-decoration: none;
+
+}
+
+.iconos{
+width: 30px;
+}
+
+.title {
+  color: #707070;
+  padding: 10px;
+  font-size: 1.4em;
+  padding: 5px;
+
+ 
+}
+.contenido {
+  
+  font-size: 1.4em;
+  color: #707070;
+  padding-top: 20%;
+}
+
+#parte2 {
+  background-image: url(/assets/img/fotosegunda.jpg);
+ 
+  width: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 14%;
+ font-family: 'Raleway', sans-serif;
+border: 1px solid red
+font: #707070;
+}
+
+
+
+
 }
