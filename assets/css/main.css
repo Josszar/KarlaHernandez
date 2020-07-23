@@ -25,6 +25,7 @@ height: 200px;
   justify-content: center;
   /* border: 1px solid blue; */
   height: 200px;
+  
 }
 
 nav {
@@ -118,10 +119,12 @@ border-radius: 5px;
  #logo-home {
 display: flex;
 justify-content: center;
-/* border: 1px solid blue; */
-width: 100%;
+border: 1px solid blue; 
+width: 90%;
+height: 90%;
 align-items: center;
-margin: 0px;
+margin: 10px auto;
+
 }
 
 nav {
